@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    /* border: 2px solid black; */
+    height: 70px;
+    display: flex;
+    margin-top: 2px;
+    background-color: rgb(244, 246, 247);
+}
+
+
+#logo{
+    /* border: 2px solid green; */
+    flex-basis: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#one{
+    /* border: 2px solid green; */
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+
+}
+
+#two{
+    /* border: 2px solid green; */
+    flex-basis: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#image1{
+    height: 70px;
+    width: 130px;
+}
+
+#iconsize{
+    font-size: 1.73rem;
+    cursor: pointer;
+}
+
+
+
+#bio{
+    font-size: 1.10em;
+}
+
+#iconBio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+   
+}
+
+#iconBio1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 70px;
+    background-color: rgb(240, 240, 233);
+    border-left: 1px solid rgb(158, 153, 153);
+    border-right: 1px solid rgb(158, 153, 153);
+    
+   
+}
+
+#joinlink:hover{
+    border: 1px solid black;
+    background-color: rgb(210, 207, 207);
+    border-radius: 40px;
+    height: 45px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#joinlink{
+    border: 0px solid black;
+    /* background-color: rgb(231, 222, 222); */
+    border-radius: 40px;
+    height: 45px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#red{
+    text-decoration: none;
+    color: black;
+    font-size: 1.39em;
+}
+
+#signIn{
+    color: blue;
+    height: 40px;
+    width: 89px;
+    border: 2px solid blue;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+a{
+    font-size: 1.10em;
+    text-decoration: none;
+}
